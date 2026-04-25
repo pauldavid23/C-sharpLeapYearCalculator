@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to Leap Year app"); 
+Console.WriteLine("Welcome to Leap Year app");
+Console.WriteLine("What is your name?");
+string name = Console.ReadLine();
+Console.WriteLine("Hi " + name + "!");
 Console.WriteLine("Enter year"); 
 int year = Convert.ToInt32(Console.ReadLine());
 
